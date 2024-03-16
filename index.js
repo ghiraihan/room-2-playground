@@ -6,7 +6,7 @@ server.use(express.urlencoded());
 // todo : Controller
 const lihat_history = require("./controller/lihat-history");
 const hitungLuas = require("./controller/hitung-luas");
-const hitungKeliling =require("./controller/rumus-keliling");
+const hitungKeliling =require("./controller/hitung-keliling");
 
 // todo : Routing
 server.get("/lihat-history", lihat_history);
