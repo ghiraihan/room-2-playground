@@ -11,7 +11,7 @@ function hitungLuas(req, res) {
     Alas: alas,
     Tinggi: tinggi,
     Luas: luas,
-    starus: "success",
+    status: "success",
   });
 }
 
